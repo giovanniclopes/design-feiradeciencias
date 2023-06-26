@@ -1,6 +1,6 @@
-import skillHero from "../assets/skillsHero.png";
+import skillHero from "../../assets/skillsHero.png";
 import { CaretRight, Globe, ShieldCheck, Users, Wrench } from "phosphor-react";
-import CoursesIcon from "../components/CoursesIcon";
+import CoursesIcon from "../home/CoursesIcon";
 import { Link } from "react-router-dom";
 
 export default function HomeHero() {

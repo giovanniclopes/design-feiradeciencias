@@ -1,7 +1,7 @@
 import bannerSam from "../assets/bannerSam.svg";
-import Certified from "../components/Certified";
-import HomeHero from "../components/HomeHero";
-import HomeSections from "../components/homeSections";
+import Certified from "../components/home/Certified";
+import HomeHero from "../components/home/HomeHero";
+import HomeSections from "../components/home/homeSections";
 
 export default function Home() {
   return (

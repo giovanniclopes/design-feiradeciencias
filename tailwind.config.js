@@ -8,17 +8,22 @@ export default {
         // => @media (max-width: 630px) { ... }
       },
       backgroundImage: {
-        vectorHowWillLearn: "url(../assets/vectorHowWillLearn.svg)",
+        vectorHowWillLearn: "url(../../src/assets/vectorHowWillLearn.svg)",
+        vectorOurSolutions: "url(../../src/assets/vectorOurSolutions.svg)",
+        vectorIntellionExperience:
+          "url(../../src/assets/vectorIntellionExperience.svg)",
+        vectorTryForFree: "url(../../src/assets/vectorTryForFree.svg)",
       },
       fontFamily: {
         inter: "Inter, sans-serif",
       },
       colors: {
         product: {
-          darkPurple: "#1B1834",
           purple: "#381571",
-          darkPink: "#76174E",
+          mediumPurple: "#242145",
+          darkPurple: "#1B1834",
           pink: "#e7005e",
+          darkPink: "#76174E",
         },
         pink: {
           100: "#faccdf",

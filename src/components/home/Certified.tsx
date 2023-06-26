@@ -1,9 +1,9 @@
-import ciscoLogo from "../assets/Companies/cisco.svg";
-import cloudfareLogo from "../assets/Companies/cloudfare.svg";
-import microsoftLogo from "../assets/Companies/microsoft.svg";
-import paloaltoLogo from "../assets/Companies/paloalto.svg";
-import IBMLogo from "../assets/Companies/IBM.svg";
-import fortinetLogo from "../assets/Companies/fortinet.svg";
+import ciscoLogo from "../../assets/Companies/cisco.svg";
+import cloudfareLogo from "../../assets/Companies/cloudfare.svg";
+import microsoftLogo from "../../assets/Companies/microsoft.svg";
+import paloaltoLogo from "../../assets/Companies/paloalto.svg";
+import IBMLogo from "../../assets/Companies/IBM.svg";
+import fortinetLogo from "../../assets/Companies/fortinet.svg";
 
 export default function Certified() {
   return (

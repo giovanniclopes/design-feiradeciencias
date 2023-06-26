@@ -1,6 +1,6 @@
-import { CaretRight, Clock, Link } from "phosphor-react";
+import { CaretRight, Clock } from "phosphor-react";
 import difficultIcon from "../../assets/icons/difficultIcon.svg";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 interface TryCourseBlock {
   imageURL: string;
@@ -8,6 +8,7 @@ interface TryCourseBlock {
   author: string;
   classLength: string;
   classDifficult: string;
+  btnLink: string;
 }
 
 export default function TryCourseBlock(props: TryCourseBlock) {
@@ -31,12 +32,12 @@ export default function TryCourseBlock(props: TryCourseBlock) {
             {props.classDifficult}
           </span>
         </div>
-        <div>
-          <NavLink to="/about">
+        <div className="w-fit">
+          <Link to={props.btnLink}>
             <button className="flex items-center justify-center gap-1 text-product-pink transition-colors hover:brightness-75 hover:underline">
               Ver todas as soluções <CaretRight size={20} />
             </button>
-          </NavLink>
+          </Link>
         </div>
       </div>
     </div>

@@ -236,7 +236,7 @@ export default function HomeSections() {
           </div>
           <div className="flex flex-row row items-center justify-center gap-12">
             <TryCourseBlock
-              link=""
+              btnLink=""
               imageURL={tryIntellionIntroductionCourse}
               title={"Introdução ao IntelliOn"}
               author={"Leonardo Coimbra"}
@@ -244,7 +244,7 @@ export default function HomeSections() {
               classDifficult={"Iniciante"}
             />
             <TryCourseBlock
-              link=""
+              btnLink=""
               imageURL={tryInternetIntroductionCourse}
               title={"Introdução à Internet e Navegação Online"}
               author={"Giovanni Lopes"}
@@ -252,7 +252,7 @@ export default function HomeSections() {
               classDifficult={"Iniciante"}
             />
             <TryCourseBlock
-              link=""
+              btnLink=""
               imageURL={tryCibersecurityIntroductionCourse}
               title={"Introdução ao Mundo Digital Protegido"}
               author={"Joab Estevam"}

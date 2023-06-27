@@ -226,7 +226,7 @@ export default function HomeSections() {
 
       <section className="p-24 bg-vectorTryForFree bg-cover m-0">
         <div className="flex flex-col items-center justify-center gap-12">
-          <div className="w-full flex flex-row items-center justify-between px-36">
+          <div className="w-full flex flex-row items-center justify-between px-12">
             <h3 className="text-2xl text-white">Experimente gratuitamente</h3>
             <Link to="">
               <button className="flex items-center justify-center gap-1 text-product-pink transition-colors hover:brightness-75 hover:underline">

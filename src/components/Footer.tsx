@@ -38,14 +38,14 @@ export default function Footer() {
               <label htmlFor="email">
                 Email <span className="text-red-500">*</span>
               </label>
-              <input className="bg-product-lightPurple rounded p-2" type="text" />
+              <input className="bg-product-lightPurple rounded p-2 text-white" type="text" />
             </div>
             <div className="flex flex-crow gap-4">
               <input type="checkbox" name="receiveEmail" id="receiveEmail" />
               <span>Gostaria de receber emails da IntelliOn</span>
             </div>
             <input
-              className="bg-product-pink text-white border cursor-pointer border-product-pink px-10 py-3 rounded transition-colors hover:brightness-90"
+              className="w-2/4 bg-product-pink text-white border cursor-pointer border-product-pink px-10 py-2 rounded transition-colors hover:brightness-90"
               type="submit"
               value="Enviar"
             />
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="flex flex-row items-center justify-between">
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex flex-row items-center gap-3 justify-center">
           <img
             src={logo}
             className="w-100 h-10 mr-2"

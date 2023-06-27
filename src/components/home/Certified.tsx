@@ -7,7 +7,7 @@ import fortinetLogo from "../../assets/Companies/fortinet.svg";
 
 export default function Certified() {
   return (
-    <section>
+    <section className="p-20">
       <div className="flex flex-col items-center justify-center gap-10">
         <div>
           <h3 className="text-2xl font-semibold">Certificado por empresas profissionais na área</h3>

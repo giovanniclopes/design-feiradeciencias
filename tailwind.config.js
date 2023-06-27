@@ -19,6 +19,7 @@ export default {
       },
       colors: {
         product: {
+          lightPurple: "#3D3A6C",
           purple: "#381571",
           mediumPurple: "#242145",
           darkPurple: "#1B1834",

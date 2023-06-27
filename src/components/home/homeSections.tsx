@@ -70,7 +70,7 @@ export default function HomeSections() {
         />
       </div>
 
-      <section className="flex flex-col gap-16 items-center justify-center bg-product-purple text-white p-24">
+      <section className="flex flex-col gap-16 items-center justify-center bg-product-purple text-white p-24 mb-0">
         <h3 className="text-2xl font-bold">Como você irá aprender aqui</h3>
         <div className="grid grid-cols-3 gap-12 item-center justify-center bg-vectorHowWillLearn bg-cover">
           <HowWillLearn
@@ -99,7 +99,7 @@ export default function HomeSections() {
         </div>
       </section>
 
-      <section className="bg-product-mediumPurple text-white p-24 bg-vectorOurSolutions bg-contain">
+      <section className="bg-product-mediumPurple text-white p-24 bg-vectorOurSolutions bg-contain m-0">
         <div className="flex flex-col gap-5 mb-12">
           <span className="font-light">Nossas soluções</span>
           <div className="flex flex-col gap-2">
@@ -116,7 +116,7 @@ export default function HomeSections() {
             </p>
           </div>
           <Link to="">
-            <button className="flex items-center justify-center gap-1 text-product-pink transition-colors hover:brightness-75 hover:underline">
+            <button className="w-fit flex items-center justify-center gap-1 text-product-pink transition-colors hover:brightness-75 hover:underline">
               Ver todas as soluções <CaretRight size={20} />
             </button>
           </Link>
@@ -179,7 +179,7 @@ export default function HomeSections() {
         </div>
       </section>
 
-      <section className="p-24 bg-vectorIntellionExperience">
+      <section className="p-24 bg-vectorIntellionExperience m-0">
         <div className="grid grid-cols-2 items-start justify-center gap-5">
           <div>
             <img src={skillsLogoIntellionExperience} alt="" />
@@ -224,9 +224,9 @@ export default function HomeSections() {
         </div>
       </section>
 
-      <section className="p-24 bg-vectorTryForFree bg-cover">
+      <section className="p-24 bg-vectorTryForFree bg-cover m-0">
         <div className="flex flex-col items-center justify-center gap-12">
-          <div className="w-full flex flex-row items-center justify-between">
+          <div className="w-full flex flex-row items-center justify-between px-36">
             <h3 className="text-2xl text-white">Experimente gratuitamente</h3>
             <Link to="">
               <button className="flex items-center justify-center gap-1 text-product-pink transition-colors hover:brightness-75 hover:underline">

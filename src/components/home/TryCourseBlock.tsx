@@ -35,7 +35,7 @@ export default function TryCourseBlock(props: TryCourseBlock) {
         <div className="w-fit">
           <Link to={props.btnLink}>
             <button className="flex items-center justify-center gap-1 text-product-pink transition-colors hover:brightness-75 hover:underline">
-              Ver todas as soluções <CaretRight size={20} />
+              Ver curso <CaretRight size={20} />
             </button>
           </Link>
         </div>

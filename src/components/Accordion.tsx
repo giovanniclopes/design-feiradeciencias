@@ -20,7 +20,7 @@ const Accordion: React.FC<AccordionProps> = ({ title, description }) => {
         className="flex items-center justify-between px-4 py-3 cursor-pointer 1rounded-t-md"
         onClick={toggleAccordion}
       >
-        <h2 className="text-lg font-normal">{title}</h2>
+        <h2 className="text-lg font-normal cursor-pointer">{title}</h2>
         {isOpen ? (
           <CaretUp className="text-gray-500" size={24} />
         ) : (

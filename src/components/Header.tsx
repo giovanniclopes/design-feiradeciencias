@@ -3,6 +3,13 @@ import logo from "../assets/logo-intellion.svg";
 import { List, X } from "phosphor-react";
 import { NavLink } from "react-router-dom";
 
+const navigation = [
+  { name: "Home", href: "/" },
+  { name: "Cursos", href: "/courses" },
+  { name: "Blog", href: "/blog" },
+  { name: "Sobre Nós", href: "/about" },
+];
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -10,7 +17,12 @@ export default function Header() {
     <nav className="flex items-center justify-between flex-wrap p-6 bg-product-darkPurple text-white">
       <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
         <NavLink to="/">
-          <img src={logo} className="w-100 h-10 mr-2" alt="Logo" draggable="false" />
+          <img
+            src={logo}
+            className="w-100 h-10 mr-2"
+            alt="Logo"
+            draggable="false"
+          />
         </NavLink>
       </div>
       <div className="block lg:hidden">
@@ -31,30 +43,15 @@ export default function Header() {
         }`}
       >
         <div className="flex gap-3 text-base font-semibold lg:flex-grow mbl:flex-col mbl:gap-0 mbl:mt-6">
-          <NavLink
-            to="/"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-pink-100 focus:text-pink-400"
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/courses"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-pink-100 focus:text-pink-400"
-          >
-            Cursos
-          </NavLink>
-          <NavLink
-            to="/blog"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-pink-100 focus:text-pink-400"
-          >
-            Blog
-          </NavLink>
-          <NavLink
-            to="/about"
-            className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-pink-100 focus:text-pink-400"
-          >
-            Sobre Nós
-          </NavLink>
+          {navigation.map((item) => (
+            <a
+              key={item.name}
+              href={item.href}
+              className="block mt-4 lg:inline-block lg:mt-0 text-white-200 mr-4 hover:text-pink-100 focus:text-pink-400"
+            >
+              {item.name}
+            </a>
+          ))}
         </div>
         <div>
           <NavLink to="/contact">
